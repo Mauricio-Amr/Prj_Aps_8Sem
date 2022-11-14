@@ -100,12 +100,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Cadastro_diciplina.aspx" />
+    <Content Include="Cadastro_professor.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\Cad_diciplina.css" />
+    <Content Include="CSS\Cad_universidade.css" />
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\Cad_aluno.css" />
     <Content Include="Default.aspx" />
@@ -121,6 +125,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Cadastro_aluno.aspx" />
+    <Content Include="Cadastro_universidade.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="JS\Cad_aluno.js" />
     <Content Include="Login.aspx" />
@@ -168,6 +173,20 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Cadastro_diciplina.aspx.cs">
+      <DependentUpon>Cadastro_diciplina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro_diciplina.aspx.designer.cs">
+      <DependentUpon>Cadastro_diciplina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro_professor.aspx.cs">
+      <DependentUpon>Cadastro_professor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro_professor.aspx.designer.cs">
+      <DependentUpon>Cadastro_professor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -220,6 +239,13 @@
     </Compile>
     <Compile Include="Cadastro_aluno.aspx.designer.cs">
       <DependentUpon>Cadastro_aluno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro_universidade.aspx.cs">
+      <DependentUpon>Cadastro_universidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro_universidade.aspx.designer.cs">
+      <DependentUpon>Cadastro_universidade.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
