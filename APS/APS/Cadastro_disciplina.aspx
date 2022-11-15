@@ -8,7 +8,7 @@
     <link href="/CSS/Cad_disciplina.css" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <title>Cad_diciplina</title>
+    <title>Cad_disciplina</title>
 </head>
 <body>
 
