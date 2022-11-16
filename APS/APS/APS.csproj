@@ -100,7 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Cadastro_diciplina.aspx" />
+    <Content Include="Cadastro_dicisplina.aspx" />
     <Content Include="Cadastro_professor.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -129,6 +129,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="JS\Cad_aluno.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Prof_registro.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -173,12 +174,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Cadastro_diciplina.aspx.cs">
-      <DependentUpon>Cadastro_diciplina.aspx</DependentUpon>
+    <Compile Include="Cadastro_dicisplina.aspx.cs">
+      <DependentUpon>Cadastro_dicisplina.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Cadastro_diciplina.aspx.designer.cs">
-      <DependentUpon>Cadastro_diciplina.aspx</DependentUpon>
+    <Compile Include="Cadastro_dicisplina.aspx.designer.cs">
+      <DependentUpon>Cadastro_dicisplina.aspx</DependentUpon>
     </Compile>
     <Compile Include="Cadastro_professor.aspx.cs">
       <DependentUpon>Cadastro_professor.aspx</DependentUpon>
@@ -210,6 +211,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prof_registro.aspx.cs">
+      <DependentUpon>Prof_registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prof_registro.aspx.designer.cs">
+      <DependentUpon>Prof_registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
