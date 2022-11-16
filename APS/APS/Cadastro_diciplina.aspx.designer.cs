@@ -11,7 +11,7 @@ namespace APS
 {
 
 
-    public partial class Cadastro_disciplina
+    public partial class Cadastro_diciplina
     {
 
         /// <summary>
