@@ -51,170 +51,289 @@
 
             <div class="card card-header">
                 <div class="form-group row">
-                    <div class="card" style="width: 18rem; height: 20rem">
+
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
 
-                     <div class="card" style="width: 18rem; height: 20rem">
+                    
+                    <div class="card" style="width: 20rem; height: 25rem">
                         <h1 class="card-header">Materia</h1>
                         <div class="card-body">
-                           <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np1</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Np2</span></h2>
-                               <h2 class ="pl-3">Nota</h2>
-                        </div>
-                              <div class="form-group row">
-                            <h2 class="pl-2"><span class="badge badge-info">Faltas</span></h2>
-                               <h2 class ="pl-3">Faltas</h2>
-                        </div>
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np1 :</span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Np2 : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Faltas : </span></h2>
+                                <h2 class="pl-3">Faltas</h2>
+                            </div>
+
+                            <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Media : </span></h2>
+                                <h2 class="pl-3">Nota</h2>
+                            </div>
+
+                             <div class="form-group row">
+                                <h2 class="pl-2"><span class="badge badge-info">Situação : </span></h2>
+                                <h2 class="pl-3">Situação</h2>
+                            </div>
                         </div>
                     </div>
+
 
                 </div>
-            </div>
+            
     </form>
 </body>
 </html>
