@@ -22,7 +22,9 @@
             <div class="card card-header">
                 <div class="card panel-primary">
                     <div class="bg-primary card-header">Cadastro do Aluno</div>
-
+                    </div>
+                </div>
+                
                     <div class="panel-body">
                         <div class="form-group">
 
@@ -44,7 +46,7 @@
                                 Nome
                                 <h11>*</h11></label>
                             <div class="col-sm-10">
-                                <input id="Nome" name="Nome" placeholder="" class="form-control " required="" type="text">
+                                <input id="Nome" name="Nome" placeholder="" class="form-control " required="" type="text"/>
                             </div>
                         </div>
 
@@ -60,7 +62,7 @@
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
                                     <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" required="" type="text" maxlength="13" pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
-                                        onkeypress="formatar('## #####-####', this)">
+                                        onkeypress="formatar('## #####-####', this)"/>
                                 </div>
                             </div>
 
@@ -101,7 +103,7 @@
                             <div class="col-md-4">
                                 <div class="input-group">
                                     <span class="input-group-addon text-center">Rua  </span>
-                                    <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text">
+                                    <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text"/>
                                 </div>
 
                             </div>
@@ -109,7 +111,7 @@
                                 <div class="input-group">
                                     <span class="input-group-addon">Nº
                                         <h11>*</h11></span>
-                                    <input id="numero" name="numero" class="form-control" placeholder="" required="" type="text">
+                                    <input id="numero" name="numero" class="form-control" placeholder="" required="" type="text"/>
                                 </div>
 
                             </div>
@@ -117,7 +119,7 @@
                             <div class="col-md-3">
                                 <div class="input-group">
                                     <span class="input-group-addon">Bairro</span>
-                                    <input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly" type="text">
+                                    <input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly" type="text"/>
                                 </div>
 
                             </div>
@@ -175,14 +177,21 @@
                         <!-- Button (Double) -->
                         <div class="form-group row  ">
 
-                            <div class="col-md-10 d-flex flex-row-reverse">
-                                <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Cadastrar</button>
-                                <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+                            <div class="col-md-10 d-flex flex-row-reverse pl-5">
+                                <div class="mx-auto px-4 ">
+
+                                <button id="Cadastrar" name="Cadastrar" class="btn btn-success px-4 pr-3 " type="Submit">Cadastrar</button>
+
+                               
+                                    <button id="Cancelar" name="Cancelar" class="btn btn-danger px-4 pl-3" type="Reset">Cancelar</button>
+
+                                </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
+        </fieldset>
         </fieldset>
 
     </form>
