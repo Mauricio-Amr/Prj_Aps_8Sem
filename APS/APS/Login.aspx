@@ -48,7 +48,7 @@
         <br />
         <br />
         <p>Cadastrar</p>
-        <a href ="#">Clique aqui</a>
+        <a href ="Cadastro_aluno.aspx">Clique aqui</a>
         <p class="mt-5 mb-3 text-muted">Aps 2022</p>
 
 
