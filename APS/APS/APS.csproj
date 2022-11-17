@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Aluno_registro.aspx" />
     <Content Include="Cadastro_dicisplina.aspx" />
     <Content Include="Cadastro_professor.aspx" />
     <Content Include="Contact.aspx" />
@@ -165,6 +166,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aluno_registro.aspx.cs">
+      <DependentUpon>Aluno_registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aluno_registro.aspx.designer.cs">
+      <DependentUpon>Aluno_registro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
