@@ -101,6 +101,9 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Aluno_registro.aspx" />
+    <Content Include="Ascx\Nav_admin.ascx" />
+    <Content Include="Ascx\Nav_aluno.ascx" />
+    <Content Include="Ascx\Nav_professor.ascx" />
     <Content Include="Cadastro_dicisplina.aspx" />
     <Content Include="Cadastro_professor.aspx" />
     <Content Include="Contact.aspx" />
@@ -182,6 +185,27 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Ascx\Nav_admin.ascx.cs">
+      <DependentUpon>Nav_admin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ascx\Nav_admin.ascx.designer.cs">
+      <DependentUpon>Nav_admin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ascx\Nav_aluno.ascx.cs">
+      <DependentUpon>Nav_aluno.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ascx\Nav_aluno.ascx.designer.cs">
+      <DependentUpon>Nav_aluno.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ascx\Nav_professor.ascx.cs">
+      <DependentUpon>Nav_professor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ascx\Nav_professor.ascx.designer.cs">
+      <DependentUpon>Nav_professor.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro_dicisplina.aspx.cs">
       <DependentUpon>Cadastro_dicisplina.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

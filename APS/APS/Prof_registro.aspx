@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Prof_registro.aspx.cs" Inherits="APS.Prof_registro" %>
 
+<%@ Register Src="~/Ascx/Nav_professor.ascx" TagPrefix="uc1" TagName="Nav_professor" %>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,6 +14,8 @@
 </head>
 <body>
     <form class="form-horizontal" id="form1" runat="server">
+
+        <uc1:Nav_professor runat="server" id="Nav_professor" />
         <fildset>
             <div class="card panel-primary">
                 <div class="bg-primary card-header">Professor registro</div>
