@@ -244,6 +244,7 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Objetos\Usuarios.cs" />
     <Compile Include="Prof_registro.aspx.cs">
       <DependentUpon>Prof_registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

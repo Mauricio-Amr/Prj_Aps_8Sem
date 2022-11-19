@@ -1,4 +1,5 @@
-﻿using System;
+﻿using APS.Objetos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,5 +14,29 @@ namespace APS
         {
 
         }
+
+        #region Click
+
+        protected void btnLogar_Click(object sender, EventArgs e)
+        {
+            Usuarios obj = new Usuarios();
+            var nivelUsuario = obj.ValidaUsuario(inputEmail.Text, inputPassword.Text);
+
+            if (nivelUsuario > 0)
+            {
+                switch (nivelUsuario)
+                {
+                    case 1:
+                        Response.Redirect("Aluno_registro.aspx");
+                        break;
+                    case 2:
+                        Response.Redirect("Prof_registro.aspx");
+                        break;
+                }
+            }
+            
+        }
+
+        #endregion
     }
 }
