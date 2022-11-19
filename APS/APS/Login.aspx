@@ -36,15 +36,15 @@
         <img class="mb-4" src="IMG/login.png" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Login</h1>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+        <asp:TextBox runat="server" ID="inputEmail" CssClass="form-control" placeholder="Email"/>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <asp:TextBox runat="server" ID="inputPassword" CssClass="form-control" placeholder="Senha" TextMode="Password"/>
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me">Lembre me
             </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">logar</button>
+        <asp:Button Text="Logar" runat="server" CssClass="btn btn-lg btn-primary btn-block" ID="btnLogar" OnClick="btnLogar_Click"/>
         <br />
         <br />
         <p>Cadastrar</p>
