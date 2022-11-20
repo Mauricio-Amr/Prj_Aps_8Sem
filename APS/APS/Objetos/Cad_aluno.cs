@@ -34,44 +34,62 @@ namespace APS.Objetos
         SqlCommand cmd = new SqlCommand();
         public String mensagem;
 
-        public void Cadastra_aluno(String nome, String telefone, String email, String cep, String rua, String num, String bairro, String cidade, String estado, String curso)
+        //public void Cadastra_aluno(String nome, String telefone, String email, String cep, String rua, String num, String bairro, String cidade, String estado, String curso)
+        //{
+
+        //    //1 comando  Sql -- sql command
+        //    cmd.CommandText = "insert into Aluno (Nome,Telefone, Email, Cep, Rua, Num, Bairro, Cidade, Estado, Senha, Curso) values (@nome, @telefone, @email, @cep, @rua, @num, @bairro, " +
+        //       "@cidade, @estado,@senha, @cusro)";
+
+        //    //2 parametros
+
+
+        //    cmd.Parameters.AddWithValue("@nome", nome);
+        //    cmd.Parameters.AddWithValue("@@telefone", telefone);
+        //    cmd.Parameters.AddWithValue("@email", email);
+        //    cmd.Parameters.AddWithValue("@cep", cep);
+        //    cmd.Parameters.AddWithValue("@rua", rua);
+        //    cmd.Parameters.AddWithValue("@num", num);
+        //    cmd.Parameters.AddWithValue("@bairro", bairro);
+        //    cmd.Parameters.AddWithValue("@curso", curso);
+        //    cmd.Parameters.AddWithValue("@senha", "Aps2022");
+
+        //    try
+        //    {
+        //        //conectar ao  banco de dados
+        //        cmd.Connection = conexao.conectar();
+        //        //executar comando
+        //        cmd.ExecuteNonQuery();
+        //        //desconectar
+        //        conexao.desconectar();
+        //        this.mensagem = "Cadastrado com sucesso sua senha é Aps2022";
+
+        //    }
+
+        //    catch (SqlException e)
+        //    {
+        //        this.mensagem = "Cadastro não efetuado erro " + e.Message;
+        //    }
+
+
+        //}
+        public void Cadastra_Aluno(string nome, string telefone, string email, string cep, string rua, string num, string bairro, string cidade, string estado, string curso)
         {
+            SqlConnection conn = new SqlConnection(strConexao);
+            conn.Open();
 
-            //1 comando  Sql -- sql command
-            cmd.CommandText = "insert into Aluno (Nome,Telefone, Email, Cep, Rua, Num, Bairro, Cidade, Estado, Senha, Curso) values (@nome, @telefone, @email, @cep, @rua, @num, @bairro, " +
-               "@cidade, @estado,@senha, @cusro)";
-
-            //2 parametros
-
-
-            cmd.Parameters.AddWithValue("@nome", nome);
-            cmd.Parameters.AddWithValue("@@telefone", telefone);
-            cmd.Parameters.AddWithValue("@email", email);
-            cmd.Parameters.AddWithValue("@cep", cep);
-            cmd.Parameters.AddWithValue("@rua", rua);
-            cmd.Parameters.AddWithValue("@num", num);
-            cmd.Parameters.AddWithValue("@bairro", bairro);
-            cmd.Parameters.AddWithValue("@curso", curso);
-            cmd.Parameters.AddWithValue("@senha", "Aps2022");
-
-            try
-            {
-                //conectar ao  banco de dados
-                cmd.Connection = conexao.conectar();
-                //executar comando
-                cmd.ExecuteNonQuery();
-                //desconectar
-                conexao.desconectar();
-                this.mensagem = "Cadastrado com sucesso sua senha é Aps2022";
-
-            }
-
-            catch (SqlException e)
-            {
-                this.mensagem = "Cadastro não efetuado erro " + e.Message;
-            }
-
-
+            SqlCommand cmd = new SqlCommand(@"insert into Aluno (Nome,Telefone, Email, Cep, Rua, Num, Bairro, Cidade, Estado, Senha, Curso) values ('" +
+                                            nome + "', '" +
+                                            telefone + "', '" +
+                                            email + "', '" +
+                                            cep + "', '" +
+                                            rua + "', '" +
+                                            num + "', '" +
+                                            bairro + "', '" +
+                                            cidade + "', '" +
+                                            estado + "', '" +
+                                            curso + "'", conn);
+            SqlDataReader dr = cmd.ExecuteReader();
         }
 
     }
