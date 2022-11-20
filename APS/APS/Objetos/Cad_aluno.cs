@@ -73,7 +73,7 @@ namespace APS.Objetos
 
 
         //}
-        public void Cadastra_Aluno(string nome, string telefone, string email, string cep, string rua, string num, string bairro, string cidade, string estado, string curso)
+        public void Cadastra_aluno(string nome, string telefone, string email, string cep, string rua, string num, string bairro, string cidade, string estado, string curso)
         {
             SqlConnection conn = new SqlConnection(strConexao);
             conn.Open();
