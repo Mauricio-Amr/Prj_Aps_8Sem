@@ -78,17 +78,16 @@ namespace APS.Objetos
             SqlConnection conn = new SqlConnection(strConexao);
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand(@"insert into Aluno (Nome,Telefone, Email, Cep, Rua, Num, Bairro, Cidade, Estado, Senha, Curso) values ('" +
+            SqlCommand cmd = new SqlCommand(@"insert into Aluno (Nome, Numero, Telefone, Rua, Bairro, Cidade, Estado, Curso, Email) values ('" +
                                             nome + "', '" +
-                                            telefone + "', '" +
-                                            email + "', '" +
-                                            cep + "', '" +
-                                            rua + "', '" +
                                             num + "', '" +
+                                            telefone + "', '" +
+                                            rua + "', '" +
                                             bairro + "', '" +
                                             cidade + "', '" +
                                             estado + "', '" +
-                                            curso + "'", conn);
+                                            curso + "', '" +
+                                            email + "')", conn);
             SqlDataReader dr = cmd.ExecuteReader();
         }
 
