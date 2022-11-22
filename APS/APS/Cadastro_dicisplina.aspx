@@ -27,12 +27,12 @@
                 <div class="col-sm-10">
                     <div class="form-group row">
 
-                        <div class="col-sm-2">
+                        <%--<div class="col-sm-2">
                             <input type="text" class="form-control" placeholder="Id Curso" />
 
-                        </div>
+                        </div>--%>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" placeholder="Curso " />
+                            <asp:TextBox runat="server" ID="txtCurso" CssClass="form-control" placeholder="Curso" type="text"/>
                         </div>
 
                         <div class="d-flex flex-row-reverse">

@@ -58,6 +58,16 @@
                             <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control" placeholder=""  required="" type="text"/>
                         </div>
 
+                        <div class="form-group col-sm-2">
+                            <label for="txtDisciplina">Disciplina</label>
+                            <asp:TextBox runat="server" ID="txtDisciplina" CssClass="form-control" placeholder=""  required="" type="text"/>
+                        </div>
+
+                        <div class="form-group col-sm-2">
+                            <label for="txtCampus">Campus</label>
+                            <asp:TextBox runat="server" ID="txtCampus" CssClass="form-control" placeholder=""  required="" type="text"/>
+                        </div>
+
                     </div>
 
 
