@@ -36,12 +36,22 @@ namespace APS.Objetos
             return tipoUsuario;
         }
 
-        public void CadastraPrimeiroAcesso(string email)
+        public void CadastraPrimeiroAcessoAluno(string email)
         {
             SqlConnection conn = new SqlConnection(strConexao);
             conn.Open();
 
             SqlCommand cmd = new SqlCommand("insert into Usuarios values ('" + email + "', 'APS2022', '1')", conn);
+
+            SqlDataReader dr = cmd.ExecuteReader();
+        }
+
+        public void CadastraPrimeiroAcessoProfessor(string email)
+        {
+            SqlConnection conn = new SqlConnection(strConexao);
+            conn.Open();
+
+            SqlCommand cmd = new SqlCommand("insert into Usuarios values ('" + email + "', 'APS2022', '2')", conn);
 
             SqlDataReader dr = cmd.ExecuteReader();
         }

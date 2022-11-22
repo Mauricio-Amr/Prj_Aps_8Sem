@@ -24,14 +24,14 @@
                 <div class="col-sm-10">
                     <div class="form-group  row">
 
-                        <div class="form-group col-sm-1">
+                        <%--<div class="form-group col-sm-1">
                             <label for="Add_professor_id">Id professor</label>
                             <input type="text" class="form-control" id="Add_professor_id" placeholder="">
-                        </div>
+                        </div>--%>
 
                         <div class="form-group col-sm-8">
-                            <label for="Add_diciplina_professor_nome">Nome</label>
-                            <input type="text" class="form-control" id="Add_diciplina_professor_nome" placeholder="">
+                            <label for="txtNome">Nome</label>
+                            <asp:TextBox runat="server" ID="txtNome" CssClass="form-control" placeholder=""  required="" type="text"/>
                         </div>
 
                     </div>
@@ -39,18 +39,23 @@
                     <div class="form-group  row">
 
                         <div class="form-group col-sm-8">
-                            <label for="Add_professor_end">Endereço</label>
-                            <input type="text" class="form-control" id="Add_professor_end" placeholder="">
+                            <label for="txtEndereco">Endereço</label>
+                            <asp:TextBox runat="server" ID="txtEndereco" CssClass="form-control" placeholder=""  required="" type="text"/>
                         </div>
 
                         <div class="form-group col-sm-1">
-                            <label for="Add_professor_end_num">N°</label>
-                            <input type="text" class="form-control" id="Add_professor_end_num" placeholder="">
+                            <label for="txtNumero">N°</label>
+                            <asp:TextBox runat="server" ID="txtNumero" CssClass="form-control" placeholder=""  required="" type="text"/>
                         </div>
 
                         <div class="form-group col-sm-2">
-                            <label for="Add_diciplina_professor_tel">Telefone</label>
-                            <input type="text" class="form-control" id="Add_diciplina_professor_tel" placeholder="">
+                            <label for="txtTelefone">Telefone</label>
+                            <asp:TextBox runat="server" ID="txtTelefone" CssClass="form-control" placeholder=""  required="" type="text"/>
+                        </div>
+
+                        <div class="form-group col-sm-2">
+                            <label for="txtEmail">Email</label>
+                            <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control" placeholder=""  required="" type="text"/>
                         </div>
 
                     </div>
@@ -59,7 +64,7 @@
 
                     <div class="d-flex flex-row-reverse">
                         <button type="button" class="btn btn-danger p-6 ml-4">Exluir</button>
-                        <button type="button" class="btn btn-success">Cadastrar</button>
+                        <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success" ID="btnCadastrar" OnClick="btn_cadastra_professor_Click"/>
                     </div>
 
                 </div>
