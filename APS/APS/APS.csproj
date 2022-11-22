@@ -246,6 +246,8 @@
     </Compile>
     <Compile Include="Objetos\Cad_aluno.cs" />
     <Compile Include="Objetos\Conexao.cs" />
+    <Compile Include="Objetos\Disciplina.cs" />
+    <Compile Include="Objetos\Professor.cs" />
     <Compile Include="Objetos\Usuarios.cs" />
     <Compile Include="Prof_registro.aspx.cs">
       <DependentUpon>Prof_registro.aspx</DependentUpon>

@@ -87,14 +87,14 @@
                     <div class="form-group row">
 
                         <div class="form-group col-sm-8">
-                            <label for="Add_diciplina">Diciplina</label>
-                            <input type="text" class="form-control" id="Add_diciplina" placeholder="">
+                            <label for="txtDisciplina">Diciplina</label>
+                            <asp:TextBox runat="server" ID="txtDisciplina" CssClass="form-control" placeholder="" type="text"/>
                         </div>
 
-                        <div class="form-group">
+                        <%--<div class="form-group">
                             <label for="Add_diciplina_categoria">Categoria</label>
                             <input type="text" class="form-control" id="Add_diciplina_categoria" placeholder="">
-                        </div>
+                        </div>--%>
 
                         
 
@@ -102,13 +102,18 @@
 
                     <div class="form-group row col-sm-8">
                         <div class="form-group col-sm-3">
-                            <label for="Add_diciplina_carga_hr">Carga Horaria</label>
-                            <input type="text" class="form-control" id="Add_diciplina_carga_hr" placeholder="">
+                            <label for="txtCargaHR">Carga Horaria</label>
+                            <asp:TextBox runat="server" ID="txtCargaHR" CssClass="form-control" placeholder="" type="text"/>
                         </div>
 
                         <div class="form-group col-sm-8">
-                            <label for="Add_diciplina_professor">Professor</label>
-                            <input type="text" class="form-control" id="Add_diciplina_professor" placeholder="">
+                            <label for="txtProfessor">Professor</label>
+                            <asp:TextBox runat="server" ID="txtProfessor" CssClass="form-control" placeholder="" type="text"/>
+                        </div>
+
+                        <div class="form-group col-sm-8">
+                            <label for="txtCampus">Campus</label>
+                            <asp:TextBox runat="server" ID="txtCampus" CssClass="form-control" placeholder="" type="text"/>
                         </div>
 
                         
@@ -116,7 +121,7 @@
 
                     <div class ="d-flex flex-row-reverse">
                         <button type="button" class="btn btn-danger p-6 ml-4">Exluir</button>
-                        <button type="button" class="btn btn-success">Cadastrar</button>
+                        <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success" ID="btnCadastrar" OnClick="btn_cadastra_disciplina_Click"/>
                     </div>
 
                 </div>
