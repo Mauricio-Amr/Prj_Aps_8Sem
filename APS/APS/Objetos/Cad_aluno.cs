@@ -39,10 +39,12 @@ namespace APS.Objetos
             SqlConnection conn = new SqlConnection(strConexao);
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand(@"insert into Aluno (Nome, Numero, Telefone, Rua, Bairro, Cidade, Estado, Curso, Email) values ('" +
+
+            SqlCommand cmd = new SqlCommand(@"insert into Aluno (Nome, Numero, Telefone, Senha, Rua, Bairro, Cidade, Estado, Curso, Email) values ('" +
                                             nome + "', '" +
                                             num + "', '" +
                                             telefone + "', '" +
+                                            "'APS2022', '" +
                                             rua + "', '" +
                                             bairro + "', '" +
                                             cidade + "', '" +
