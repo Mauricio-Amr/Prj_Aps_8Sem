@@ -23,29 +23,29 @@
             <div class="card card-header">
                 <div class="form-group row">
 
-                    <label class="col-sm-1 col-form-label text-right" for="Campus">
+                    <label class="col-sm-1 col-form-label text-right" for="txtCampus">
                         Campus
                     </label>
                     <div class="col-sm-8">
-                        <input id="Campus" name="Campus" placeholder="" class="form-control " required="" type="text">
+                        <asp:TextBox runat="server" ID="txtCampus" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
                 </div>
 
                 <div class="form-group row">
-                    <label class="col-sm-1 col-form-label text-right" for="Nome_uni">
+                    <label class="col-sm-1 col-form-label text-right" for="txtNome">
                         Nome
                     </label>
                     <div class="col-sm-8">
-                        <input id="Nome" name="Campus" placeholder="" class="form-control " required="" type="text">
+                        <asp:TextBox runat="server" ID="txtNome" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
                 </div>
 
                 <div class="form-group row">
-                    <label class="col-sm-1 col-form-label text-right" for="Cnpj_uni">
+                    <label class="col-sm-1 col-form-label text-right" for="txtCnpj">
                         Cnpj
                     </label>
                     <div class="col-sm-8">
-                        <input id="Cnpj" name="Campus" placeholder="" class="form-control " required="" type="text">
+                        <asp:TextBox runat="server" ID="txtCnpj" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
                 </div>
 
@@ -54,18 +54,18 @@
             <div class="card card-header">
 
                 <div class="form-group row">
-                    <label class="col-sm-1 col-form-label text-right" for="Endereco">
+                    <label class="col-sm-1 col-form-label text-right" for="txtEndereco">
                         Endereço
                     </label>
                     <div class="col-sm-5">
-                        <input id="Endereco" name="Campus" placeholder="" class="form-control " required="" type="text">
+                        <asp:TextBox runat="server" ID="txtEndereco" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
 
-                    <label class="col-sm-1 col-form-label text-right" for="Endereco">
+                    <label class="col-sm-1 col-form-label text-right" for="txtNumero">
                         N°
                     </label>
                     <div class="col-sm-2">
-                        <input id="Numero" name="Campus" placeholder="" class="form-control " required="" type="text">
+                        <asp:TextBox runat="server" ID="txtNumero" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
                 </div>
 
@@ -73,16 +73,16 @@
 
             <div class="card card-header">
                 <div class="form-group row">
-                    <label class="col-sm-1 col-form-label text-right" for="Tel_uni">
+                    <label class="col-sm-1 col-form-label text-right" for="txtTelefone">
                         Telefone
                     </label>
                     <div class="col-sm-8">
-                        <input id="Tel_uni" name="Campus" placeholder="" class="form-control " required="" type="text">
+                        <asp:TextBox runat="server" ID="txtTelefone" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
                 </div>
             </div>
 
-            <div class="card card-header ">
+            <%--<div class="card card-header ">
                 <!--Aqui sera alterado  pela Dom -->
                 <div class=" form-group row">
                     <label class="col-sm-2 col-form-label text-right">Adicionar curso</label>
@@ -92,17 +92,19 @@
                         <button type="button" class="btn btn-primary ">
                             <h1>+</h1>
                         </button>
+                        <asp:Button Text="btnCadastraCurso" runat="server" CssClass="btn btn-primary" ID="btnCadastraCurso" OnClick="btn_cadastra_curso_Click"/>
                     </div>
                     <div class="col-sm-8">
                         <input id="Add_curso" name="Add_curso" placeholder="" class="form-control" required="" type="text" />
+                        <asp:TextBox runat="server" ID="txtCurso" CssClass="form-control" placeholder=""  required="" type="text"/>
                     </div>
                 </div>
                 <!--ate aqui  -->
-            </div>
+            </div>--%>
 
             <div class="card card-header">
                 <div class="d-flex flex-row-reverse">
-                    <button type="button" class ="btn btn-success px-md-3 ml-3 ">Cadastrar</button>
+                    <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success px-md-3 ml-3" ID="btnCadastrarUni" OnClick="btn_cadastra_uni_Click"/>
                     <button type="button" class ="btn btn-danger px-md-4">Excluir</button>
                     
                 </div>

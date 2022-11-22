@@ -32,6 +32,10 @@ namespace APS
                     case 2:
                         Response.Redirect("Prof_registro.aspx");
                         break;
+                    case 3:
+                        Response.Redirect("Cadastro_universidade.aspx");
+                        break;
+
                 }
             }
             

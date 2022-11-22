@@ -99,14 +99,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="Aluno_registro.aspx" />
     <Content Include="Ascx\Nav_admin.ascx" />
     <Content Include="Ascx\Nav_aluno.ascx" />
     <Content Include="Ascx\Nav_professor.ascx" />
     <Content Include="Cadastro_dicisplina.aspx" />
     <Content Include="Cadastro_professor.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -116,7 +114,6 @@
     <Content Include="CSS\Cad_universidade.css" />
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\Cad_aluno.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -177,13 +174,6 @@
       <DependentUpon>Aluno_registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Ascx\Nav_admin.ascx.cs">
       <DependentUpon>Nav_admin.ascx</DependentUpon>
@@ -220,20 +210,6 @@
     <Compile Include="Cadastro_professor.aspx.designer.cs">
       <DependentUpon>Cadastro_professor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -246,8 +222,10 @@
     </Compile>
     <Compile Include="Objetos\Cad_aluno.cs" />
     <Compile Include="Objetos\Conexao.cs" />
+    <Compile Include="Objetos\Curso.cs" />
     <Compile Include="Objetos\Disciplina.cs" />
     <Compile Include="Objetos\Professor.cs" />
+    <Compile Include="Objetos\Universidade.cs" />
     <Compile Include="Objetos\Usuarios.cs" />
     <Compile Include="Prof_registro.aspx.cs">
       <DependentUpon>Prof_registro.aspx</DependentUpon>

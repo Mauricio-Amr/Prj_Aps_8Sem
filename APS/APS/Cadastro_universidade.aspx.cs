@@ -1,4 +1,5 @@
-﻿using System;
+﻿using APS.Objetos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,12 @@ namespace APS
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btn_cadastra_uni_Click(object sender, EventArgs e)
+        {
+            Universidade uni = new Universidade();
+            uni.Cadastra_Universidade(txtCnpj.Text, txtNome.Text, txtEndereco.Text, Convert.ToInt32(txtNumero.Text), txtTelefone.Text, "", txtCampus.Text);
         }
     }
 }
