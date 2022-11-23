@@ -12,7 +12,7 @@ namespace APS
     {
         protected Cad_aluno _aluno;
         protected List<Disciplina> _disciplinas;
-        protected NotasFaltas _notasFaltas;
+        protected Notas_e_faltas _notasFaltas;
         protected void Page_Load(object sender, EventArgs e)
         {
             int idUsuario = Convert.ToInt32(Request.QueryString["Id"]);
@@ -23,9 +23,6 @@ namespace APS
 
             Cad_aluno cadAluno = new Cad_aluno();
             _aluno = cadAluno.ObterAluno(idUsuario);
-            
-            NotasFaltas nf = new NotasFaltas();
-            _notasFaltas = nf.ObterNotasEFaltas(_aluno.Id);
         }
     }
 }

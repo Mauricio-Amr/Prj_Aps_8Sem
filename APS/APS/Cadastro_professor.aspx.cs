@@ -18,7 +18,7 @@ namespace APS
         protected void btn_cadastra_professor_Click(object sender, EventArgs e)
         {
             Professor prof = new Professor();
-            prof.Cadastra_professor(txtNome.Text, txtEndereco.Text, Convert.ToInt32(txtNumero.Text), txtTelefone.Text, txtDisciplina.Text, txtCampus.Text);
+            prof.Cadastra_professor(txtNome.Text, txtEndereco.Text, Convert.ToInt32(txtNumero.Text), txtTelefone.Text, txtDisciplina.Text, txtCampus.Text, txtEmail.Text);
 
             Usuarios usuario = new Usuarios();
             usuario.CadastraPrimeiroAcessoProfessor(txtEmail.Text);

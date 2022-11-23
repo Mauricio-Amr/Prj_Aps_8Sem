@@ -88,6 +88,38 @@ namespace APS.Objetos
             return aluno;
         }
 
+        public List<Cad_aluno> ObterTodosAlunos()
+        {
+            SqlConnection conn = new SqlConnection(strConexao);
+            conn.Open();
+
+            SqlCommand cmd = new SqlCommand(@"select distinct a.* from Usuarios u
+                                                inner join Aluno a on a.Email = u.Email", conn);
+
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            List<Cad_aluno> alunos = new List<Cad_aluno>();
+            while (dr.Read())
+            {
+                Cad_aluno aluno = new Cad_aluno();
+                aluno.Id = dr.GetInt32(0);
+                aluno.nome = dr.GetString(1);
+                aluno.num = dr.GetInt32(2);
+                aluno.telefone = dr.GetString(3);
+                aluno.rua = dr.GetString(5);
+                aluno.bairro = dr.GetString(6);
+                aluno.cidade = dr.GetString(7);
+                aluno.estado = dr.GetString(8);
+                aluno.curso = dr.GetString(9);
+                aluno.email = dr.GetString(10);
+                aluno.RA = dr.GetInt32(11);
+
+                alunos.Add(aluno);
+            }
+
+            return alunos;
+        }
+
         public int RetornaProximoRA()
         {
             SqlConnection conn = new SqlConnection(strConexao);

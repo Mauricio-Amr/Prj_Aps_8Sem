@@ -70,27 +70,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">Automação 1</th>
-                            <td>7</td>
-                            <td>8</td>
-                            <td>-</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Automação 1</th>
-                            <td>7</td>
-                            <td>8</td>
-                            <td>-</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Automação 1</th>
-                            <td>7</td>
-                            <td>8</td>
-                            <td>-</td>
-                            <td>1</td>
-                        </tr>
+                        <%foreach (var item in _disciplinas)
+                            { %>
+                                <tr>
+                                    <th scope="row"><%=item.Nome %></th>
+                                    <td><%=item.NotasEFaltas.Np_1 %></td>
+                                    <td><%=item.NotasEFaltas.Np_2 %></td>
+                                    <td><%=item.NotasEFaltas.Exame %></td>
+                                    <td><%=item.NotasEFaltas.Faltas %></td>
+                                </tr>
+                            <% } %>
                     </tbody>
                 </table>
 
