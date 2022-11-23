@@ -47,6 +47,21 @@ namespace APS.Objetos
             return nf;
         }
 
+        public void SalvaNotaFalta(int id_Aluno, int id_Disciplina, int nP1, int nP2, int exame, int faltas)
+        {
+            SqlConnection conn = new SqlConnection(strConexao);
+            conn.Open();
+
+
+            SqlCommand cmd = new SqlCommand(@"insert into NotasFaltas values (" +
+                                            id_Aluno + ", " +
+                                            id_Disciplina + ", " +
+                                            nP1 + ", " +
+                                            nP2 + ", " +
+                                            exame + ", " +
+                                            faltas + ")", conn);
+            SqlDataReader dr = cmd.ExecuteReader();
+        }
 
     }
 }

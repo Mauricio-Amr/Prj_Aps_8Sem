@@ -69,6 +69,24 @@ namespace APS
         protected global::System.Web.UI.WebControls.TextBox inputFaltas;
 
         /// <summary>
+        /// Controle inputNp1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox inputNp1;
+
+        /// <summary>
+        /// Controle inputNP2.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox inputNP2;
+
+        /// <summary>
         /// Controle btnSalvarNota.
         /// </summary>
         /// <remarks>

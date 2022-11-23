@@ -29,11 +29,9 @@ namespace APS
 
         protected void btn_salvar_nota_Click(object sender, EventArgs e)
         {
-            //Professor prof = new Professor();
-            //prof.Cadastra_professor(txtNome.Text, txtEndereco.Text, Convert.ToInt32(txtNumero.Text), txtTelefone.Text, txtDisciplina.Text, txtCampus.Text, txtEmail.Text);
+            Notas_e_faltas nf = new Notas_e_faltas();
+            nf.SalvaNotaFalta(_aluno[0].Id, _disciplinas[0].Id, Convert.ToInt32(inputNp1.Text.Replace(",", "")), Convert.ToInt32(inputNP2.Text.Replace(",", "")), 0, 0);
 
-            //Usuarios usuario = new Usuarios();
-            //usuario.CadastraPrimeiroAcessoProfessor(txtEmail.Text);
         }
     }
 }
