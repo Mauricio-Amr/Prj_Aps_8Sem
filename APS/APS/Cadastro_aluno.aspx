@@ -197,10 +197,10 @@
                             <div class="col-md-10 d-flex flex-row-reverse pl-5">
                                 <div class="mx-auto px-4 ">
                                     <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success px-4 pr-3 " ID="Cadastrar" OnClick="btn_cadastra_aluno_Click"/>
+                                    <asp:Button Text="Limpar" runat="server" CssClass="btn btn-danger px-4 pr-3 " ID="Limpar" />
 
                                
-                                    <button id="Cancelar" name="Cancelar" class="btn btn-danger px-4 pl-3" type="Reset">Cancelar</button>
-
+                                   
                                 </div>
 
                             </div>

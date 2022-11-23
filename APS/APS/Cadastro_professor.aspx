@@ -73,8 +73,8 @@
 
 
                     <div class="d-flex flex-row-reverse">
-                        <button type="button" class="btn btn-danger p-6 ml-4">Exluir</button>
-                        <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success" ID="btnCadastrar" OnClick="btn_cadastra_professor_Click"/>
+                        <asp:Button Text="Limpar" runat="server" CssClass="btn btn-danger p-6 ml-4" ID="btnLimpar" />
+                        <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success px-md-3 ml-3" ID="btnCadastrar" OnClick="btn_cadastra_professor_Click"/>
                     </div>
 
                 </div>

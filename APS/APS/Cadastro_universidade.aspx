@@ -104,8 +104,9 @@
 
             <div class="card card-header">
                 <div class="d-flex flex-row-reverse">
+                    <asp:Button Text="Limpar" runat="server" CssClass="btn btn-danger px-md-3 ml-3" ID="btnLimpar"/>
                     <asp:Button Text="Cadastrar" runat="server" CssClass="btn btn-success px-md-3 ml-3" ID="btnCadastrarUni" OnClick="btn_cadastra_uni_Click"/>
-                    <button type="button" class ="btn btn-danger px-md-4">Excluir</button>
+                   
                     
                 </div>
 
