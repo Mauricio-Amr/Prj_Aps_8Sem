@@ -221,6 +221,7 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Objetos\Cad_aluno.cs" />
+    <Compile Include="Objetos\Notas_e_faltas.cs" />
     <Compile Include="Objetos\Conexao.cs" />
     <Compile Include="Objetos\Curso.cs" />
     <Compile Include="Objetos\Disciplina.cs" />
