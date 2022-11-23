@@ -85,8 +85,8 @@
                                         <tr>
                                             <td><%=item.Aluno.nome %></td>
                                             <td><%=item.Aluno.email %></td>
-                                            <td><asp:TextBox runat="server" ID="inputNp1" CssClass="form-control" placeholder="NP1"  required="" type="text"/></td>
-                                            <td><asp:TextBox runat="server" ID="inputNP2" CssClass="form-control" placeholder="NP2"  required="" type="text"/></td>
+                                            <td><asp:TextBox runat="server" ID="inputNp1" CssClass="form-control" placeholder="NP1" type="text"/></td>
+                                            <td><asp:TextBox runat="server" ID="inputNP2" CssClass="form-control" placeholder="NP2" type="text"/></td>
                                             <td><asp:Button Text="Salvar" runat="server" CssClass="btn btn-primary" ID="btnSalvarNota" OnClick="btn_salvar_nota_Click"/></td>
                                         </tr>
                                     <% } %>
