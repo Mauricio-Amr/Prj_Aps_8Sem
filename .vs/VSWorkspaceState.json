@@ -3,8 +3,9 @@
     "",
     "\\APS",
     "\\APS\\APS",
-    "\\APS\\APS\\CSS"
+    "\\APS\\APS\\CSS",
+    "\\APS\\APS\\Objetos"
   ],
-  "SelectedNode": "\\APS\\APS\\Cadastro_universidade.aspx",
+  "SelectedNode": "\\APS\\APS\\Objetos\\Cad_aluno.cs",
   "PreviewInSolutionExplorer": false
 }
