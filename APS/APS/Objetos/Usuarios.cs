@@ -10,30 +10,35 @@ namespace APS.Objetos
     public class Usuarios
     {
         #region Prop
+        public int Id { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
+        public int TipoUsuario { get; set; }
         #endregion
 
         #region ConnectionStrings
         public readonly string strConexao = ConfigurationManager.ConnectionStrings["APS"].ConnectionString;
         #endregion
 
-        public int ValidaUsuario(string email, string senha)
+        public Usuarios ValidaUsuario(string email, string senha)
         {
             SqlConnection conn = new SqlConnection(strConexao);
             conn.Open();
 
-            SqlCommand cmd = new SqlCommand("Select TipoUsuario from Usuarios where Email = '" + email + "' AND Senha = '" + senha + "'", conn);
+            SqlCommand cmd = new SqlCommand("Select * from Usuarios where Email = '" + email + "' AND Senha = '" + senha + "'", conn);
 
             SqlDataReader dr = cmd.ExecuteReader();
 
-            int tipoUsuario = 0;
+            Usuarios usuario = new Usuarios();
             while (dr.Read())
             {
-                tipoUsuario = dr.GetInt32(0);
+                usuario.Id = dr.GetInt32(0);
+                usuario.Email = dr.GetString(1);
+                usuario.Senha = dr.GetString(2);
+                usuario.TipoUsuario = dr.GetInt32(3);
             }
 
-            return tipoUsuario;
+            return usuario;
         }
 
         public void CadastraPrimeiroAcessoAluno(string email)

@@ -30,24 +30,29 @@
                     <div class="form-group row col-sm-8">
 
                         <div class="col-sm-4">
-                            <h2><span class="badge badge-info">Nome</span></h2>
+                            <h2>
+                                <span class="badge badge-info">
+                                    Nome: <%=_aluno.nome %>
+                                </span>
+
+                            </h2>
                         </div>
 
                         <div class="col-sm-11">
-                            <h2><span class="badge badge-info">email</span></h2>
+                            <h2><span class="badge badge-info">Email: <%=_aluno.email %></span></h2>
                         </div>
 
                         <div class="col-sm-4">
                             <h3>
-                                <span class="badge badge-info">registro</span>
+                                <span class="badge badge-info">registro: <%=_aluno.RA %></span>
                             </h3>
                         </div>
 
-                        <div class="col-sm-4">
+                        <%--<div class="col-sm-4">
                             <h3>
                                 <span class="badge badge-info">data</span>
                             </h3>
-                        </div>
+                        </div>--%>
 
                     </div>
                 </div>

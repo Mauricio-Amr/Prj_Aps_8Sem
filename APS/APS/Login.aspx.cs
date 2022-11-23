@@ -19,21 +19,21 @@ namespace APS
 
         protected void btnLogar_Click(object sender, EventArgs e)
         {
-            Usuarios obj = new Usuarios();
-            var nivelUsuario = obj.ValidaUsuario(inputEmail.Text, inputPassword.Text);
+            Usuarios usuario = new Usuarios();
+            usuario = usuario.ValidaUsuario(inputEmail.Text, inputPassword.Text);
 
-            if (nivelUsuario > 0)
+            if (usuario.TipoUsuario > 0)
             {
-                switch (nivelUsuario)
+                switch (usuario.TipoUsuario)
                 {
                     case 1:
-                        Response.Redirect("Aluno_registro.aspx");
+                        Response.Redirect("Aluno_registro.aspx?Id=" + usuario.Id);
                         break;
                     case 2:
-                        Response.Redirect("Prof_registro.aspx");
+                        Response.Redirect("Prof_registro.aspx?Id=" + usuario.Id);
                         break;
                     case 3:
-                        Response.Redirect("Cadastro_universidade.aspx");
+                        Response.Redirect("Cadastro_universidade.aspx?Id=" + usuario.Id);
                         break;
 
                 }
