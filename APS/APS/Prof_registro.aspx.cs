@@ -30,7 +30,21 @@ namespace APS
         protected void btn_salvar_nota_Click(object sender, EventArgs e)
         {
             Notas_e_faltas nf = new Notas_e_faltas();
-            nf.SalvaNotaFalta(_aluno[0].Id, _disciplinas[0].Id, Convert.ToInt32(inputNp1.Text.Replace(",", "")), Convert.ToInt32(inputNP2.Text.Replace(",", "")), 0, 0);
+
+            int notaExame = 0;
+            if (!String.IsNullOrEmpty(inputExame.Text))
+            {
+                notaExame = Convert.ToInt32(inputExame.Text.Replace(",", ""));
+            }
+
+            int qtdFaltas = 0;
+            if (!String.IsNullOrEmpty(inputFaltas.Text))
+            {
+                qtdFaltas = Convert.ToInt32(inputFaltas.Text.Replace(",", ""));
+            }
+
+            nf.SalvaNotaFalta(_aluno[0].Id, _disciplinas[0].Id, Convert.ToInt32(inputNp1.Text.Replace(",", "")),
+                Convert.ToInt32(inputNP2.Text.Replace(",", "")), notaExame, qtdFaltas);
 
         }
     }

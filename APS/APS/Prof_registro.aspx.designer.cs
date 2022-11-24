@@ -1,6 +1,6 @@
 ﻿//------------------------------------------------------------------------------
 // <gerado automaticamente>
-//     Esse código foi gerado por uma ferramenta.
+//     Este código foi gerado por uma ferramenta.
 //
 //     As alterações ao arquivo poderão causar comportamento incorreto e serão perdidas se
 //     o código for recriado
@@ -19,7 +19,7 @@ namespace APS
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
@@ -28,7 +28,7 @@ namespace APS
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::APS.Ascx.WebUserControl3 Nav_professor;
 
@@ -37,7 +37,7 @@ namespace APS
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox inputNp1;
 
@@ -46,7 +46,7 @@ namespace APS
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox inputNP2;
 
@@ -55,7 +55,7 @@ namespace APS
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox inputExame;
 
@@ -64,34 +64,16 @@ namespace APS
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox inputFaltas;
-
-        /// <summary>
-        /// Controle inputNp1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox inputNp1;
-
-        /// <summary>
-        /// Controle inputNP2.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox inputNP2;
 
         /// <summary>
         /// Controle btnSalvarNota.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSalvarNota;
     }
